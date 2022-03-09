@@ -1,0 +1,98 @@
+#head{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+    /* Set you're content font stack here: */
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.pure-g div div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.glider-contain{
+    max-width: 900px;
+}
+
+.glider-contain button{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.minimal-link{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    border: none;
+    font-size: 24px;
+}
+
+.minimal-link:hover{
+    text-decoration: underline;
+}
+
+.minimal-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+}
+
+.minimal-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#aPropos{
+    margin-bottom: 100px;
+}
+
+#galerie{
+    margin-bottom: 100px;
+}
+
+#page-body{
+    margin : 100px auto; padding: 0px 30px; max-width: 1300px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px 0px ;
+    text-indent: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }

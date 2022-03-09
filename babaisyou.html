@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo's</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
+    
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <script src="js/glider.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/glider.css">
+
+    <script src="js/collapsible.js"></script>
+    <script src="js/carousel.js"></script>
+
+</head>
+<body>
+
+    <section id="head">
+        <h1>Baba is you</h1>
+        <hr width="250px">
+        <h2>Reproduction du jeu baba is you</h2>    
+    </section>
+
+    <div id="page-body">
+        <section id="aPropos">
+            <h1>Informations</h1>
+
+            <h2 class="collapsible">C'est quoi ?</h2>
+            <div class="content">
+                <p>Baba is you est un jeu de logique dans lequel toutes les règles régissant les éléments qui le compose sont définis sur le terrain.</p>
+                <p>Par exemple s'il y a écrit BABA IS YOU, nous controlons baba (le bonhome sur l'image). Si je pousse un ROCK pour réécrire BABA IS YOU en BABA IS ROCK, je controle maintenant le ou les rochers du niveau !</p>
+                <p>Il s'agit d'un projet personnel, j'adore les jeux de logique donc je souhaitais savoir comment ces règles sont codées.</p>
+                <p>J'ai développé la plupart des règles du premier monde ainsi qu'un éditeur de niveau.</p>
+            </div>
+
+            <h2 class="collapsible">Technologie</h2>
+            <div class="content" >
+               <p>J'ai utilisé le moteur de jeu GODOT pour ce projet, avec son langage de programmation le GDScript.</p>
+               <p>Le système de Tilemap ne fonctionnait pas pour baba car on ne peux pas superposer les éléments par défaut, j'ai donc programmé mon propre système de Tilemap, et d'Autotile (automatiquement former les murs etc..).</p>
+            </div>
+
+            <h2 class="collapsible">Apports</h2>
+            <div class="content">
+                <p>J'ai découvert que utiliser un moteur complet comme Unity ou Godot peut être un frein lié aux limitations de outils mis à disposition.</p>
+                <p>Je comprend maintenant comment les systèmes de Tilemap et d'autotile fonctionnent.</p>
+                <p>Intégrer tant de règles dans ce jeu n'a pas été facile et c'était un bon défi.</p>
+            </div>
+        </section>
+    
+    
+        <section id="galerie">
+            <h1>Galerie</h1>
+            <div class="glider-contain" >
+                <div class="glider">
+                  <img src="assets/baba/babaisgifup2.gif"/>
+                  <img src="assets/baba/baba.png"/>
+                </div>
+                <button aria-label="Previous" class="glider-prev"><</button>
+                <button aria-label="Next" class="glider-next">></button>
+                <div role="tablist" class="dots"></div>
+              </div>
+        </section>
+
+        <a href="index.html" class="minimal-link">← Retour</a>
+
+    </div>
+
+    <section style="text-align: center; margin: 100px 0px 50px 0px;" id="footer">
+        <a href="https://github.com/Giiltham"><img src="https://img.icons8.com/ios-glyphs/40/000000/github.png"/></a>
+        <a href="https://www.linkedin.com/in/c%C3%A9dric-brunet-150366227/" ><img src="https://img.icons8.com/ios-glyphs/40/000000/linkedin.png"/></a>
+        <a href="mailto:brunetced42@gmail.com"><img src="https://img.icons8.com/material-rounded/40/000000/mail.png"/></a>
+    </section>
+    
+</body>
+</html>
+
